@@ -1,0 +1,53 @@
+body{
+  background-color: black;
+  background-image: none;
+}
+h2, h5{
+  color: #C5B475;
+  font-family: Playfair Display;
+  margin-left: 5%;
+  text-transform: uppercase;
+}
+
+h2{
+  margin-bottom: 1%;
+}
+
+.assist{
+  font-weight: 500;
+  color: #E6DEAD;
+}
+p{
+  color: #FDFDEB;
+  font-family: Raleway;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+a{
+  color: #8B7325;
+}
+a:hover{
+  color: #8B7325;
+  text-decoration: underline;
+}
+a::after{
+  color: #8B7325;
+}
+#contactForm{
+  width:80%;
+  margin:10%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.main{
+  width:60%;
+}
+
+.carousel-inner{
+  margin-left: 2.5%;
+
+}
+.carousel-control-prev{
+  margin-left: 8%;
+}

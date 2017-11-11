@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  margin-top: 0;
+}
+header{
+    background-color: #292b2c;
+}
+#companyLogo{
+  display: inline;
+  margin: 1%;
+  height: 3%;
+  width: 3%;
+}
+h1{
+  display: block;
+  font-family: Playfair Display;
+  padding-left: 10%;
+  font-size: 3.5em;
+  background-color: #292b2c;
+  color: #8B7325;
+  text-transform: uppercase;
+  margin-top: 0.54em;
+
+}
+h3{
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: Raleway;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-left: 10%;
+  background-color: #292b2c;
+  color: #E6DEAD;
+  margin-bottom: 0;
+}
+.background{
+  background-color: #292b2c;
+}
+
+nav{
+  background-color: #292b2c;
+}
+nav .breadcrumb{
+  background-color: #292b2c;
+}
+.nav-link{
+  font-family: Raleway;
+  color: #E6DEAD;
+  text-align: center;
+}
+.breadcrumb .breadcrumb-item{
+    color: rgba(230,222,173);
+    font-size: .75em;
+}
+.navbar-toggler{
+  color: #E6DEAD;
+  background-color: #292b2c;
+  display: inline;
+}
+.navbar-toggler-icon{
+  color: #8B7325;
+  padding: 0;
+  border: 2px solid #E6DEAD;
+  border-radius: 5px;
+  font-size: 1.5em;
+
+}
+.carousel-inner{
+  width: 100%;
+  Height: 20%;
+}
+.card-group{
+  background-color: #292b2c;
+}
+.card{
+  margin: 0;
+  padding: 2%;
+  border-style: none;
+  background-color: rgba(253,253,235,0.75);
+  color: #292b2c;
+  text-align: center;
+}
+.card-title{
+  font-size: 1em;
+  font-family: Playfair Display;
+  padding-top: 10%;
+}
+
+
+@media (min-width: 576px) {
+  h1{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+  .mainContentBox {
+    background-color: white;
+    margin-top: 10%;
+    display: block;
+  }
+ }
+
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.65em;
+  }
+  .mainContentBox {
+    background-color: white;
+    margin-top: 0;
+  }
+ }
+
+
+@media (min-width: 992px) {
+  h1{
+    font-size: 3.5em;
+  }
+  h3{
+    font-size: 2.45em;
+  }
+  .mainContentBox {
+    background-color: white;
+    margin-top: 0;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  h1{
+    font-size: 4em;
+  }
+  h3{
+    font-size: 2.65em;
+  }
+  .mainContentBox {
+    background-color: white;
+    margin-top: 0;
+  }
+}
